@@ -1,0 +1,8 @@
+建一个文件叫xxx.csh
+
+#! /bin/csh -f
+shell command 1
+shell command 2
+.....
+
+执行时只需source xxx.csh，则会依次执行shell command 1,2...
